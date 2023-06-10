@@ -37,6 +37,10 @@ img {
     border: 0;
 }
 
+h2 {
+    font-weight: bolder;
+}
+
 .icons {
     text-align: center;
     padding: 8px 0 4px;
@@ -52,8 +56,78 @@ img {
 }
 
 .banner {
-    max-width: 70%;
+    max-width: 100%;
     width: 600;
+    padding: 15px;
+    padding-top: 0;
+}
+
+.two-columns {
+    font-size: 0;
+    text-align: center;
+    padding: 35px 0 40px;
+}
+
+.double {
+    padding: 20px;
+}
+
+.columns {
+    width: 100%;
+    display: inline;
+}
+
+.left {
+    font-size: 15px;
+    text-align: left;
+    line-height: 20px;
+}
+
+.image-left {
+    width: 260px;
+    max-width: 260px;
+}
+
+.left-button {
+    background-color: #1e547b;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+#internal {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4rem;
+    padding-bottom: 15px;
+}
+
+.right {
+    font-size: 15px;
+    text-align: left;
+    line-height: 20px;
+}
+
+.image-right {
+    width: 260px;
+    max-width: 260px;
+}
+
+.right-button {
+    background-color: #1e547b;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.content {
+    width: 100%;
+    max-width: 300px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 @media screen and (max-width: 600px) {
