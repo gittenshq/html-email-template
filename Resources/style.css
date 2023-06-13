@@ -65,11 +65,11 @@ h2 {
 .two-columns {
     font-size: 0;
     text-align: center;
-    padding: 35px 0 40px;
+    padding: 25px 0 40px;
 }
 
 .double {
-    padding: 20px;
+    padding: 60px;
 }
 
 .columns {
@@ -131,11 +131,31 @@ h2 {
 .content {
     width: 100%;
     max-width: 300px;
-    display: grid;
     vertical-align: top;
     align-items: center;
+    }
+
+.ending {
+    width: 230px;
+    padding: 20px;
+    background-color: black;
 }
 
 @media screen and (max-width: 600px) {
+    * {
+        box-sizing: border-box;
+    }
+    
+    .wrapper {
+        grid-template-columns: 1fr 1fr;
+        }
+    
+        .content {
+            overflow-wrap: normal;
+        }
+
+        .right {
+            display: grid;
+        }
 
 }
