@@ -74,13 +74,16 @@ h2 {
 
 .columns {
     width: 100%;
-    display: inline;
+    display: table-row;
+    align-items: center;
 }
 
 .left {
     font-size: 15px;
     text-align: left;
     line-height: 20px;
+    display: table-cell;
+    padding: 10px;
 }
 
 .image-left {
@@ -107,6 +110,8 @@ h2 {
     font-size: 15px;
     text-align: left;
     line-height: 20px;
+    display: table-cell;
+    padding: 10px;
 }
 
 .image-right {
@@ -126,8 +131,9 @@ h2 {
 .content {
     width: 100%;
     max-width: 300px;
-    display: inline-block;
+    display: grid;
     vertical-align: top;
+    align-items: center;
 }
 
 @media screen and (max-width: 600px) {
